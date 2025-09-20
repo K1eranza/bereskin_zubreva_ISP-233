@@ -93,18 +93,16 @@ fun main() {
 //    }
 
     //Задача "доступ в закрытую зону игры"
-//    print("Введите уровень игрока: ")
-//    val level = readln().toInt()
-//    println("Введите (true/false) если есть VIP: ")
-//    val hasVIP = readln().toBoolean()
-//    if ((level >= 30 && hasVIP) || level >= 50) {
-//        println("Доступ разрешен")
-//    } else {
-//        println("Доступ запрещен")
-//    }
-//}
-
-    //
+    print("Введите уровень игрока: ")
+    val level = readln().toInt()
+    println("Введите (true/false) если есть VIP: ")
+    val hasVIP = readln().toBoolean()
+    if ((level >= 30 && hasVIP) || level >= 50) {
+        println("Доступ разрешен")
+    } else {
+        println("Доступ запрещен")
+    }
+    }
 
 
 
