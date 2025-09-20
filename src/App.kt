@@ -1,3 +1,4 @@
 fun main() {
-    println("Hello")
+    val number = readln(). toInt()
+    println(number)
 }
